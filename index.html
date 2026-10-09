@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>26 Закарпатський полк Національної гвардії України</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body oncontextmenu="return false;">
+
+    <!-- Developed by Mykola Kolisnyk -->
+    <div style="display:none;" aria-hidden="true" data-author="Mykola Kolisnyk">26 Zakarpattia Regiment Web App</div>
+
+    <!-- Навігація -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                <div class="emblem-box">
+                    <img src="images/chevron.webp" alt="Шеврон 26 полку" class="brand-chevron-img" onerror="this.style.display='none'">
+                    <i class="fa-solid fa-shield-halved fallback-icon"></i>
+                </div>
+                <div>
+                    <span class="brand-title">26 Полк</span>
+                    <span class="brand-sub">Закарпатський · в/ч 3115</span>
+                </div>
+            </div>
+
+            <div class="nav-links" id="desktop-menu">
+                <a href="#hero">Головна</a>
+                <a href="#about">Про полк</a>
+                <a href="#recruitment">Служба та Вакансії</a>
+                <a href="#news">Новини</a>
+            </div>
+
+            <div class="menu-toggle" id="menu-btn" aria-label="Мобільне меню">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="mobile-menu hidden" id="mobile-menu">
+            <a href="#hero">Головна</a>
+            <a href="#about">Про полк</a>
+            <a href="#recruitment">Служба та Вакансії</a>
+            <a href="#news">Новини</a>
+        </div>
+    </nav>
+
+    <!-- Головна секція з великим фото праворуч -->
+    <header id="hero" class="hero-section">
+        <div class="hero-glow"></div>
+        <div class="hero-container animate-fade-in">
+            <div class="hero-text-content">
+                <span class="badge"><i class="fa-solid fa-shield-halved"></i> Офіційний сайт підрозділу · в/ч 3115</span>
+                <h1 class="hero-title">26 Закарпатський полк <span>Національної гвардії України</span></h1>
+                <p class="hero-desc">Сформований на Закарпатті для захисту державного суверенітету, територіальної цілісності та свободи України.</p>
+                <div class="hero-buttons">
+                    <a href="#recruitment" class="btn btn-primary"><i class="fa-solid fa-briefcase"></i> Вакансії та Контракт</a>
+                    <a href="#news" class="btn btn-outline"><i class="fa-solid fa-newspaper"></i> Останні новини</a>
+                </div>
+            </div>
+            
+            <!-- Збільшене головне фото по центру/збоку -->
+            <div class="hero-image-wrapper">
+                <div class="hero-image-frame">
+                    <img src="images/image.jpg" alt="26 Закарпатський полк" class="hero-dynamic-img">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Про полк -->
+    <section id="about" class="section bg-card">
+        <div class="container">
+            <div class="section-header">
+                <h2>Про підрозділ</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="grid-3">
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-calendar-days"></i></div>
+                    <h3>Створення</h3>
+                    <p>Сформований 17 березня 2022 року в Закарпатській області для захисту державного суверенітету та територіальної цілісності України.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-flag"></i></div>
+                    <h3>Почесне найменування</h3>
+                    <p>У грудні 2025 року полку офіційно присвоєно найменування «Закарпатський». У березні 2026 року стрічку урочисто закріплено на бойовому прапорі.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Завдання</h3>
+                    <p>Виконання оборонних завдань, а також відзначення військовослужбовців державними і відомчими нагородами за мужність.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Служба за контрактом (зліва) та Вакансії (справа) -->
+    <section id="recruitment" class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="pinned-badge" style="margin: 0 auto 1rem; display: table;"><i class="fa-solid fa-thumbtack"></i> Важливі оголошення · Закріплено</div>
+                <h2>Служба за контрактом та вакансії</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="top-split-grid">
+                <!-- Зліва: Контракт 18-24 з відео -->
+                <div class="pinned-banner split-item">
+                    <div class="pinned-badge"><i class="fa-solid fa-star"></i> Контракт 18-24</div>
+                    <div class="pinned-video-box">
+                        <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1419725679688119%2F&show_text=false&width=267&t=0" width="100%" height="380" style="border:none;overflow:hidden;border-radius:12px;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                    <div class="pinned-text-box" style="margin-top: 1.25rem;">
+                        <h3>КОНТРАКТ 18-24 💥</h3>
+                        <p class="pinned-lead">Це добровільна служба за контрактом для громадян віком з 18 до 24 років, яка дозволяє за час служби отримати конкурентні виплати, престижний досвід та соціальні гарантії.</p>
+                        
+                        <div class="pinned-details">
+                            <p><strong>Переваги програми:</strong></p>
+                            <ul>
+                                <li>Контракт на 1 рік («Контракт 18-24: Дрони» – на 2 роки, з них обовʼязково 12 місяців бойових дій)</li>
+                                <li>Достойний заробіток та гарантії від держави</li>
+                            </ul>
+                            
+                            <p style="margin-top: 0.5rem;"><strong>Що ти отримаєш?</strong></p>
+                            <ul>
+                                <li><strong>Контракт на 1 000 000 грн.</strong> (200 000 грн одразу, та 800 000 грн виплат двома частинами)</li>
+                                <li>Зарплата до 120 000 грн/міс із доплатами за бойові завдання</li>
+                                <li>Вибір частини, компенсація житла, іпотека 0% («єОселя»)</li>
+                                <li>Право на виїзд за кордон та вибір місця проходження ВЛК</li>
+                            </ul>
+                        </div>
+
+                        <div class="pinned-footer-action">
+                            <a href="https://www.facebook.com/reel/1419725679688119" target="_blank" class="btn btn-primary btn-sm">
+                                <i class="fa-brands fa-facebook"></i> Дивитися у Facebook <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Справа: Топ-10 вакансій -->
+                <div class="pinned-banner split-item">
+                    <div class="pinned-badge"><i class="fa-solid fa-briefcase"></i> Топ-10 вакансій · в/ч 3115</div>
+                    <h3 style="font-size: 1.5rem; font-weight: 800; color: #fff; margin-bottom: 1rem; text-transform: uppercase;">Оберіть свою посаду</h3>
+                    
+                    <div class="vacancies-grid-split">
+                        <div class="vacancy-card">
+                            <h3>Стрілець</h3>
+                            <p class="salary">від 20 100 до 121 100 грн</p>
+                        </div>
+                        <div class="vacancy-card">
+                            <h3>Кулеметник</h3>
+                            <p class="salary">від 20 100 до 121 100 грн</p>
+                        </div>
+                        <div class="vacancy-card">
+                            <h3>Санітарний інструктор</h3>
+                            <p class="salary">від 20 100 до 121 100 грн</p>
+                        </div>
+                        <div class="vacancy-card">
+                            <h3>Снайпер</h3>
+                            <p class="salary">від 20 100 до 121 100 грн</p>
+                        </div>
+                        <div class="vacancy-card">
+                            <h3>Оператор БПЛА</h3>
+                            <p class="salary">від 20 100 до 121 100 грн</p>
+                        </div>
+                        <div class="vacancy-card">
+                            <h3>Радіотелефоніст</h3>
+                            <p class="salary">від 20 100 до 121 100 грн</p>
+                        </div>
+                        <div class="vacancy-card">
+                            <h3>Водій</h3>
+                            <p class="salary">від 20 100 до 121 100 грн</p>
+                        </div>
+                        <div class="vacancy-card">
+                            <h3>Кінолог (дресирувальник)</h3>
+                            <p class="salary">від 20 100 до 121 100 грн</p>
+                        </div>
+                        <div class="vacancy-card">
+                            <h3>Гранатометник</h3>
+                            <p class="salary">від 20 100 до 121 100 грн</p>
+                        </div>
+                        <div class="vacancy-card">
+                            <h3>Кухар</h3>
+                            <p class="salary">від 20 100 до 121 100 грн</p>
+                        </div>
+                    </div>
+
+                    <div class="vacancy-callout" style="margin-top: 1.25rem; padding: 1.25rem;">
+                        <p style="font-size: 0.9rem; margin-bottom: 1rem;">Якщо ти ще не визначився з посадою — ми допоможемо обрати те, що підійде саме тобі.<br><strong>Ставай частиною нашої команди!</strong></p>
+                        <div class="vacancy-phone" style="font-size: 1rem; padding: 0.5rem 1rem;">
+                            <i class="fa-solid fa-phone-volume"></i> Телефон: <a href="tel:+380976745029">+380 97 674 50 29</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Новини внизу -->
+    <section id="news" class="section bg-card">
+        <div class="container">
+            <div class="section-header">
+                <h2>Останні новини</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="grid-3" id="news-container"></div>
+        </div>
+    </section>
+
+    <!-- Модальне вікно для новин -->
+    <div id="news-modal" class="modal hidden">
+        <div class="modal-content" id="news-modal-content">
+            <button onclick="closeModal()" class="modal-close" aria-label="Закрити"><i class="fa-solid fa-xmark"></i></button>
+            <span id="modal-tag" class="modal-tag"></span>
+            <h3 id="modal-title" class="modal-title"></h3>
+            
+            <div id="modal-gallery" class="modal-gallery"></div>
+
+            <p id="modal-text" class="modal-text"></p>
+            <div class="modal-footer">
+                <a id="modal-fb-link" href="https://www.facebook.com/ngu3115" target="_blank" class="btn btn-primary btn-sm">
+                    <i class="fa-brands fa-facebook"></i> Переглянути у Facebook
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Підвал -->
+    <footer>
+        <p>&copy; 2026 26-й окремий полк Національної гвардії України (в/ч 3115). Всі права захищені.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
