@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>26 Закарпатський полк Національної гвардії України (в/ч 3115) | Офіційний сайт</title>
+    <meta name="description" content="Офіційний сайт 26-го Закарпатського полку НГУ (військова частина 3115). Актуальні вакансії, рекрутинг, новини підрозділу, служба за контрактом та мобілізація.">
+    <meta name="keywords" content="26 полк НГУ, військова частина 3115, в/ч 3115, Нацгвардія Закарпаття, рекрутинг НГУ, вакансії в НГУ, служба за контрактом Ужгород, Закарпатський полк">
+    <meta name="author" content="26 Закарпатський полк НГУ">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="26 Закарпатський полк Національної гвардії України (в/ч 3115)">
+    <meta property="og:description" content="Приєднуйся до лав 26-го Закарпатського полку НГУ. Актуальні вакансії, служба за контрактом та новини підрозділу.">
+    <meta property="og:image" content="images/chevron.webp">
+    <meta property="og:site_name" content="26 Закарпатський полк НГУ">
+    <meta property="og:locale" content="uk_UA">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="26 Закарпатський полк Національної гвардії України (в/ч 3115)">
+    <meta name="twitter:description" content="Приєднуйся до лав 26-го Закарпатського полку НГУ. Актуальні вакансії та новини.">
+    <meta name="twitter:image" content="images/chevron.webp">
+
+    <link rel="icon" type="image/webp" href="images/chevron.webp">
+    <link rel="apple-touch-icon" href="images/chevron.webp">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div style="display:none;" aria-hidden="true" data-author="Mykola Kolisnyk">26 Zakarpattia Regiment Web App</div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                <div class="emblem-box">
+                    <img src="images/chevron.webp" alt="Шеврон 26 полку" class="brand-chevron-img" onerror="this.style.display='none'">
+                    <i class="fa-solid fa-shield-halved fallback-icon"></i>
+                </div>
+                <div>
+                    <span class="brand-title">26 Полк</span>
+                    <span class="brand-sub">Закарпатський · в/ч 3115</span>
+                </div>
+            </div>
+
+            <div class="nav-links" id="desktop-menu">
+                <a href="#hero">Головна</a>
+                <a href="#about">Про полк</a>
+                <a href="#vacancies">Вакансії</a>
+                <a href="#news">Новини</a>
+            </div>
+
+            <div class="menu-toggle" id="menu-btn" aria-label="Мобільне меню">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="mobile-menu hidden" id="mobile-menu">
+            <a href="#hero">Головна</a>
+            <a href="#about">Про полк</a>
+            <a href="#vacancies">Вакансії</a>
+            <a href="#news">Новини</a>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-glow"></div>
+        <div class="hero-container animate-fade-in">
+            <div class="hero-text-content">
+                <span class="badge"> Офіційний сайт 26 Закарпатського полку</span>
+                <h1 class="hero-title">26 Закарпатський полк <span>Національної гвардії України</span></h1>
+                <p class="hero-desc">26-й Закарпатський полк Національної гвардії України (військова частина 3115) — це підрозділ Західного оперативно-територіального об'єднання НГУ.</p>
+                <div class="hero-buttons">
+                    <a href="#vacancies" class="btn btn-primary"><i class="fa-solid fa-briefcase"></i> Актуальні Вакансії</a>
+                    <a href="#news" class="btn btn-outline"><i class="fa-solid fa-newspaper"></i> Новини підрозділу</a>
+                </div>
+            </div>
+            
+            <div class="hero-image-wrapper">
+                <div class="hero-image-frame">
+                    <img id="hero-slider-img" src="" alt="26 Закарпатський полк" class="hero-dynamic-img">
+                    <button class="slider-arrow slider-prev" onclick="prevHeroSlide()" aria-label="Попереднє фото"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="slider-arrow slider-next" onclick="nextHeroSlide()" aria-label="Наступне фото"><i class="fa-solid fa-chevron-right"></i></button>
+                    <div class="slider-dots" id="hero-slider-dots"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section bg-card">
+        <div class="container">
+            <div class="section-header">
+                <h2>Про підрозділ</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="grid-3">
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-calendar-days"></i></div>
+                    <h3>Створення</h3>
+                    <p>Сформований 17 березня 2022 року в Закарпатській області для захисту державного суверенітету та територіальної цілісності України.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-flag"></i></div>
+                    <h3>Почесні відзнаки</h3>
+                    <p>У березні 2026 року полк отримав стрічку з почесним найменуванням на бойовий прапор від Президента України.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Завдання</h3>
+                    <p>26-й Закарпатський полк Національної гвардії України виконує широкий спектр завдань, що поєднують безпосередні бойові дії на передовій та забезпечення внутрішньої безпеки і правопорядку в тилу.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vacancies" class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="pinned-badge" style="margin: 0 auto 0.75rem; display: table;"> Набір до лав · в/ч 3115</div>
+                <h2>Топ-10 вакансій</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="vacancies-grid" id="vacancies-container"></div>
+
+            <div class="vacancy-callout">
+                <p>Якщо ти ще не визначився з посадою — ми допоможемо обрати те, що підійде саме тобі.<br><strong>Ставай частиною нашої команди та захищай Україну разом із нами!</strong></p>
+                <div class="vacancy-phone">
+                    <i class="fa-solid fa-phone-volume"></i> Телефон для довідок: <a href="tel:+380976745029">+380 97 674 50 29</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="section bg-card">
+        <div class="container">
+            <div class="section-header">
+                <h2>Новини</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="grid-3" id="news-container"></div>
+            <div class="pagination-container" id="pagination-container"></div>
+        </div>
+    </section>
+
+    <div id="vacancy-modal" class="modal hidden">
+        <div class="modal-content modal-compact">
+            <div class="modal-header-bar">
+                <span class="modal-tag"> Вакансія в/ч 3115</span>
+                <button onclick="closeVacancyModal()" class="modal-close" aria-label="Закрити"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-inner-scroll" id="vac-modal-box">
+                <h3 id="vac-modal-title" class="modal-title" style="margin-bottom: 0.5rem;"></h3>
+                <p id="vac-modal-salary" class="salary-highlight"></p>
+                
+                <div class="modal-phone-box">
+                    <p>Телефон для довідок:</p>
+                    <a href="tel:+380976745029" class="phone-link-btn">
+                        <i class="fa-solid fa-phone-volume"></i> +380 97 674 50 29
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="news-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header-bar">
+                <span id="modal-tag" class="modal-tag"></span>
+                <button onclick="closeModal()" class="modal-close" aria-label="Закрити"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-inner-scroll" id="news-modal-box">
+                <h3 id="modal-title" class="modal-title"></h3>
+                
+                <div id="modal-gallery" class="modal-gallery"></div>
+
+                <p id="modal-text" class="modal-text"></p>
+                <div class="modal-footer">
+                    <a id="modal-fb-link" href="https://www.facebook.com/ngu3115" target="_blank" class="btn btn-primary btn-sm">
+                        <i class="fa-brands fa-facebook"></i> Переглянути у Facebook
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - 26 Закарпатський полк Національної гвардії України</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
